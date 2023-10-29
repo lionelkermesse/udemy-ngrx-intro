@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 import { CounterService } from '../counter.service';
 
 @Component({
+  standalone: true,
   selector: 'app-counter-output',
   templateUrl: './counter-output.component.html',
   styleUrls: ['./counter-output.component.css'],

@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { CounterService } from '../counter.service';
 
 @Component({
+  standalone: true,
   selector: 'app-counter-controls',
   templateUrl: './counter-controls.component.html',
   styleUrls: ['./counter-controls.component.css'],
